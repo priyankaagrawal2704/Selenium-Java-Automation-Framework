@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="chatSection" parallel="classes">
+
+    <test name="chat sectiom automation">
+        <classes>
+            <class name="DipakKumar.assignment_33.chatAutomation"></class>
+            <class name="DipakKumar.assignment_32.loadingPage"></class>
+        </classes>
+    </test>
+</suite>
